@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lovers+Quarrel&display=swap');
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),
+    url("images/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    margin-top: 30px;
+   overflow: hidden;
+
+}
+
+.card1{
+    text-align: center;
+    width: 90%;
+    
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100%;
+    margin-bottom: 50px;
+}
+
+
+
+.cardheader{
+    font-size: 2.5em;
+    font-family: Lobster;
+    overflow: hidden;
+
+    
+    
+}
+#addition{
+    font-size: 1.5em;
+    overflow: hidden;
+}
+.formcontrol{
+    margin-top: 25px;
+    width: 50%;
+    margin: auto;
+}
+.btn-primary{
+    
+    width: 180px;
+    margin-top: 25px;
+    background-color:rgb(54, 103, 194);
+}
+
+#lovevalue{
+    width: 180px;
+    margin-bottom: 25px;
+    color: red;
+    font-size: 1.2em;
+}
+.cardbody{
+    background-image: url("images/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center  center ;
+    
+}
+.cardfooter{
+    background-color: rgb(54, 103, 194);
+    color: white;
+    font-family: 'Lovers Quarrel';
+    font-size: 2.5rem;
+    
+}
